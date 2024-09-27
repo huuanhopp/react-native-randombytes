@@ -17,7 +17,7 @@ public class RandomBytesPackage implements ReactPackage {
                               ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
 
-    modules.add(new RandomBytesModule(reactContext));
+    modules.add(new RandomBytesModuleCustom(reactContext));
 
     return modules;
   }

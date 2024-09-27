@@ -12,10 +12,10 @@ import java.util.HashMap;
 
 import android.util.Base64;
 
-class RandomBytesModule extends ReactContextBaseJavaModule {
+class RandomBytesModuleCustom extends ReactContextBaseJavaModule {
   private static final String SEED_KEY = "seed";
 
-  public RandomBytesModule(ReactApplicationContext reactContext) {
+  public RandomBytesModuleCustom(ReactApplicationContext reactContext) {
     super(reactContext);
   }
 
